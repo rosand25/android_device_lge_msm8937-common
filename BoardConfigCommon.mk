@@ -140,16 +140,16 @@ QCOM_BT_USE_SMD_TTY := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 
 # Offline Charging
-WITH_CM_CHARGER := true
+WITH_LINEAGE_CHARGER := true
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 BOARD_CHARGER_ENABLE_SUSPEND := false
 BACKLIGHT_PATH := "/sys/class/leds/lcd-backlight/brightness"
 BOARD_CHARGING_CMDLINE_NAME := "androidboot.mode"
 BOARD_CHARGING_CMDLINE_VALUE := "chargerlogo"
 
-# CMHW
-BOARD_USES_CYANOGEN_HARDWARE := true
-#BOARD_HARDWARE_CLASS := device/lge/lv517/cmhw/
+# LINEAGEHW
+BOARD_USES_LINEAGE_HARDWARE := true
+#BOARD_HARDWARE_CLASS := device/lge/lv517/lineagehw/
 
 # CNE
 BOARD_USES_QCNE := true
